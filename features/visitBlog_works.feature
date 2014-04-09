@@ -3,7 +3,7 @@ Feature: visitBlog
   As a visitor of legovaer.be
   I need to click on the 'pencil' button
 
-Scenario: Expand testimonials details
+Scenario: Click the 'pencil' button
   Given I am on the homepage
   When I follow "blog_page_link"
   Then I should be on "/blog"
