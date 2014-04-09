@@ -1,4 +1,4 @@
-Feature: Testimonials
+Feature: visitBlog
   In order to visit levi's blog page
   As a visitor of legovaer.be
   I need to click on the 'pencil' button
