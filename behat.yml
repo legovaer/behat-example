@@ -3,4 +3,10 @@ default:
     Behat\MinkExtension\Extension:
       base_url: "http://legovaer.be"
       goutte: ~
-      selenium2: ~
+
+jenkins:
+   formatter:
+       name: pretty,junit,html
+       parameters:
+           output_path: ,build/behat,build/behat/behat.xml,build/behat/behat.html
+
